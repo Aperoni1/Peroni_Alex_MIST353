@@ -1,0 +1,70 @@
+﻿@page
+@model Peroni_Assignment_2.Pages.aboutModel
+@{
+}
+<html>
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <h1>About This Project</h1>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>
+                This project aims to create a site that will provide users with up to date fire warning data.
+                Additionally, I would like to give users the ability to use their location to get the weather forecast for their area.
+            </p>
+        </section>
+
+        <section>
+            <div class="container">
+                <button id="toggleBtn" class="btn btn-primary">View Features</button>
+                <table id="ftrTbl" class="ftrTbl table">
+                    <thead>
+                        <tr>
+                            <th>Potential Features</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Interactive Map</td>
+                        </tr>
+                        <tr>
+                            <td>User location data</td>
+                        </tr>
+                        <tr>
+                            <td>Weather data for the users location</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research</h2>
+            <p>
+                You will probably notice that I have many files related to the jsvector API in my js and css folders.
+                I attempted to implement a basic map, but could not get it to work.
+                I will need to do more research on how to implement it or alternative interactive maps that are easier to implement.
+            </p>
+        </section>
+
+    </div>
+
+    <!-- JavaScript to toggle visibility of the table -->
+    <script>
+        document.getElementById('toggleBtn').addEventListener('click', function () {
+            var table = document.getElementById('ftrTbl');
+            if (table.style.display === 'none') {
+                table.style.display = 'table';
+            } else {
+                table.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
