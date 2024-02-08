@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Peroni_Assignment_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd7660a60ca6f417858a4b23b84407502fe2316f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10f30d703f3cbba275ad57f65810f36781214239")]
 [assembly: System.Reflection.AssemblyProductAttribute("Peroni_Assignment_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Peroni_Assignment_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
